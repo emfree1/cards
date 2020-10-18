@@ -1,0 +1,32 @@
+.load-users{
+    margin-bottom: 30px;
+}
+.user-btn{
+    margin: 20px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    flex-direction: column;
+    margin-bottom: 30px;
+    position: relative;
+    width: 500px;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.remove-btn{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    font-weight: 800;
+    font-size: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
